@@ -1,5 +1,55 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        var dogFirst = 8.0;
+        System.out.println("dogFirst = " + dogFirst);
+        var catFirst = 3.6;
+        System.out.println("catFirst = " + catFirst);
+        var paperFirst = 763789;
+        System.out.println("paperFirst = " + paperFirst);
+        var dogSecond = dogFirst + 4.0;
+        System.out.println("dogSecond = " + dogSecond);
+        var catSecond = catFirst + 4.0;
+        System.out.println("catSecond = " + catSecond);
+        var paperSecond = paperFirst + 4;
+        System.out.println("paperSecond = " + paperSecond);
+        var dogThird = dogFirst - 3.5;
+        System.out.println("dogThird = " + dogThird);
+        var catThird = catFirst - 1.6;
+        System.out.println("catThird = " + catThird);
+        var paperThird = paperFirst - 7639;
+        System.out.println("paperThird = " + paperThird);
+        var friendFist = 19;
+        System.out.println("friend = " + friendFist);
+        var friendSecond = friendFist * 2;
+        System.out.println("friendSecond = " + friendSecond);
+        var friendThird = friendSecond / 7;
+        System.out.println("friendThird = " + friendThird);
+        var frogFirst = 3.5;
+        System.out.println("frogFirst = " + frogFirst);
+        var frogSecond = 3.5 * 10;
+        System.out.println("frogSecond = " + frogSecond);
+        var frogThird = frogSecond / 3.5;
+        System.out.println("frogThird = " + frogThird);
+        var frogFourth = frogThird + 4.0;
+        System.out.println("frogFourth = " + frogFourth);
+        var fistBoxerWeight = 78.2;
+        System.out.println("масса первого боксера " + fistBoxerWeight + " кг");
+        var secondBoxerWeight = 82.7;
+        System.out.println("масса второго боксера " + secondBoxerWeight + " кг");
+        var totalWeight = fistBoxerWeight + secondBoxerWeight;
+        System.out.println("общая масса боксеров " + totalWeight + " кг");
+        var differenceWeight = fistBoxerWeight - secondBoxerWeight;
+        System.out.println("разница веса между боксерами " + differenceWeight + " кг");
+        var preponderance = secondBoxerWeight - fistBoxerWeight;
+        System.out.println("перевес на " + preponderance + " кг");
+        var totalPreponderance = secondBoxerWeight % fistBoxerWeight;
+        System.out.println("основной перевес на " + totalPreponderance + " кг");
+        var watch = 640;
+        var workingDay = 8;
+        var numberOfEmployees = watch / workingDay;
+        System.out.println("Всего работников в компании - " + numberOfEmployees + " человек");
+        var moreEmployees = numberOfEmployees + 94;
+        var needTime = moreEmployees * 8;
+        System.out.println("Если в компании работает " + moreEmployees + " человека, то всего " + needTime + " часов работы может быть поделено между сотрудниками");
     }
 }
