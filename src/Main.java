@@ -22,15 +22,15 @@ public class Main {
         System.out.println(friend);
         friend = friend + 2;
         System.out.println(friend);
-        friend = (friend + 2) / 7;
+        friend = friend / 7;
         System.out.println(friend);
         var frog = 3.5;
         System.out.println(frog);
         frog = frog * 10;
         System.out.println(frog);
-        frog = (frog * 10) / 3.5;
+        frog = frog / 3.5;
         System.out.println(frog);
-        frog = (frog * 10.0) / 3.5 + 4.0;
+        frog = frog + 4.0;
         System.out.println(frog);
         var fistBoxerWeight = 78.2;
         System.out.println("масса первого боксера " + fistBoxerWeight + " кг");
@@ -46,8 +46,9 @@ public class Main {
         System.out.println("основной перевес на " + totalPreponderance + " кг");
         var watch = 640;
         var workingDay = 8;
-                System.out.println("Всего работников в компании - " + watch / workingDay + " человек");
-        var moreEmployees = (watch / workingDay) + 94;
+        var watchWorkingDay = watch / workingDay;
+                System.out.println("Всего работников в компании - " + watchWorkingDay + " человек");
+        var moreEmployees = watchWorkingDay + 94;
         var needTime = moreEmployees * 8;
         System.out.println("Если в компании работает " + moreEmployees + " человека, то всего " + needTime + " часов работы может быть поделено между сотрудниками");
     }
