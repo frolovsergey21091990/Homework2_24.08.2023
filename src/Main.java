@@ -1,5 +1,55 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        var dog = 8.0;
+        System.out.println(dog);
+        var cat = 3.6;
+        System.out.println(cat);
+        var paper = 763789;
+        System.out.println(paper);
+        dog = dog + 4.0;
+        System.out.println(dog);
+        cat = cat + 4.0;
+        System.out.println(cat);
+        paper = paper + 4;
+        System.out.println(paper);
+        dog = dog - 3.5;
+        System.out.println(dog);
+        cat = cat - 1.6;
+        System.out.println(cat);
+        paper = paper - 7639;
+        System.out.println(paper);
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4.0;
+        System.out.println(frog);
+        var fistBoxerWeight = 78.2;
+        System.out.println("масса первого боксера " + fistBoxerWeight + " кг");
+        var secondBoxerWeight = 82.7;
+        System.out.println("масса второго боксера " + secondBoxerWeight + " кг");
+        var totalWeight = fistBoxerWeight + secondBoxerWeight;
+        System.out.println("общая масса боксеров " + totalWeight + " кг");
+        var differenceWeight = fistBoxerWeight - secondBoxerWeight;
+        System.out.println("разница веса между боксерами " + differenceWeight + " кг");
+        var preponderance = secondBoxerWeight - fistBoxerWeight;
+        System.out.println("перевес на " + preponderance + " кг");
+        var totalPreponderance = secondBoxerWeight % fistBoxerWeight;
+        System.out.println("основной перевес на " + totalPreponderance + " кг");
+        var watch = 640;
+        var workingDay = 8;
+        var watchWorkingDay = watch / workingDay;
+                System.out.println("Всего работников в компании - " + watchWorkingDay + " человек");
+        var moreEmployees = watchWorkingDay + 94;
+        var needTime = moreEmployees * 8;
+        System.out.println("Если в компании работает " + moreEmployees + " человека, то всего " + needTime + " часов работы может быть поделено между сотрудниками");
     }
 }
